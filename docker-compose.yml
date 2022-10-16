@@ -31,7 +31,7 @@ services:
     container_name: strapi-base-DB
     platform: linux/amd64
     restart: unless-stopped
-    image: postgres:12.12-alpine
+    image: postgres:15.0-alpine
     environment:
       POSTGRES_USER: ${DATABASE_USERNAME}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
