@@ -1,4 +1,4 @@
-FROM node:16-alpine as build
+FROM node:lts-alpine as build
 RUN apk add --no-cache libc6-compat > /dev/null 2>&1
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
@@ -11,7 +11,7 @@ WORKDIR /opt/app
 COPY ./ .
 RUN yarn build
 
-FROM node:16-alpine
+FROM node:lts-alpine
 RUN apk add --no-cache libc6-compat
 ARG NODE_ENV=production
 ENV NODE_ENV=${NODE_ENV}
