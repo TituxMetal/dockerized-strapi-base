@@ -20,6 +20,7 @@ COPY --from=build /opt/node_modules ./node_modules
 COPY --from=build /opt/app/package.json ./package.json
 COPY --from=build /opt/app/yarn.lock ./yarn.lock
 ENV PATH /opt/node_modules/.bin:$PATH
+COPY --from=build /opt/app/build ./build
 COPY --from=build /opt/app/config ./config
 COPY --from=build /opt/app/database ./database
 COPY --from=build /opt/app/public ./public
