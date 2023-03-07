@@ -23,7 +23,7 @@
     "@strapi/provider-upload-cloudinary": "4.7.1",
     "@strapi/strapi": "4.7.1",
     "better-sqlite3": "8.1.0",
-    "pg": "8.9.0"
+    "pg": "8.10.0"
   },
   "strapi": {
     "uuid": "d465d5de-312f-4cd2-8a50-16fc6d96c80b"
