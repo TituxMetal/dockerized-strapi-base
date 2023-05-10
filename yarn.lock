@@ -2185,10 +2185,10 @@
   resolved "https://registry.yarnpkg.com/@strapi/provider-audit-logs-local/-/provider-audit-logs-local-4.10.2.tgz#213332cc6cde7ce7514bcf80d3f209a61287de14"
   integrity sha512-SoxEKJvDh9Kw1s1VPJ+vSuumIgJO7/MLamDhxsawSE+l0GDFYmJKR5+Vv7XKKQ815jAMRiZMPsCJul6XIcPAJQ==
 
-"@strapi/provider-email-nodemailer@4.10.2":
-  version "4.10.2"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-email-nodemailer/-/provider-email-nodemailer-4.10.2.tgz#5be27502e17ee9cd04dabb9418e3ccd06f2eac52"
-  integrity sha512-LSLMkQeymVEIShfFD/+Ws2oD1P9X9BoqPMXr+s9+0NJUmVf+kmf2cUjKDC+PINJ9f5XuAT89YBlfc5gWXdWQUw==
+"@strapi/provider-email-nodemailer@4.10.3":
+  version "4.10.3"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-email-nodemailer/-/provider-email-nodemailer-4.10.3.tgz#4fc88a70480aed348bc6cc24c62a349209a60538"
+  integrity sha512-u057GGlN+/3J5pjalizqOq/Az2HdXHGpssQBffWSGYyIObp40bRkcb7eqvXZuvJAf0kE0EdthjThVyTZy8z8qg==
   dependencies:
     lodash "4.17.21"
     nodemailer "6.9.1"
@@ -2201,12 +2201,12 @@
     "@strapi/utils" "4.10.2"
     sendmail "^1.6.1"
 
-"@strapi/provider-upload-cloudinary@4.10.2":
-  version "4.10.2"
-  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.10.2.tgz#3a355c8a5dd6490aaa18699a27a3b86e949e9649"
-  integrity sha512-H5ZFPYfXqUIGV6PoU5IfhEX8QYsiA9Xus6p1jitFFHIK9+sVIVLvMgEZrDirgE9CctHIZEAerLaV0JD6mzWzPQ==
+"@strapi/provider-upload-cloudinary@4.10.3":
+  version "4.10.3"
+  resolved "https://registry.yarnpkg.com/@strapi/provider-upload-cloudinary/-/provider-upload-cloudinary-4.10.3.tgz#500323752e64f6ac3f14f3cfb54d70257661ddbe"
+  integrity sha512-dQlP49dOcSA3k5lEiDAGfNvhp9zqUbIHBc/eb6fjJnGygIcYpenvpY0bMAb/7Yz8u2AIpwXnwsDb8n/J1ONo3w==
   dependencies:
-    "@strapi/utils" "4.10.2"
+    "@strapi/utils" "4.10.3"
     cloudinary "^1.33.0"
     into-stream "^5.1.0"
 
@@ -2294,6 +2294,18 @@
   version "4.10.2"
   resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.10.2.tgz#cf804424f037de71a6467c4125181044396f8f5b"
   integrity sha512-vf3fXtOK26hDjQq8+fv/PpvEjeVBUaD9cI8k7j8aSz3A1DY8BYL0KDBX/Gm9T55b0Lzxwz39zURA1+pQquxsFg==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "2.29.3"
+    http-errors "1.8.1"
+    lodash "4.17.21"
+    p-map "4.0.0"
+    yup "0.32.9"
+
+"@strapi/utils@4.10.3":
+  version "4.10.3"
+  resolved "https://registry.yarnpkg.com/@strapi/utils/-/utils-4.10.3.tgz#7a75e19b55a2f36b58121fabbc1aed12093660d9"
+  integrity sha512-NSj2PR//HzAsvn5oSyuRcXlzyaBJsMRAcMniw9/4/35dmHpT8mvYR9n3mbVWNSTOacftKSi89kcMNYE6DF8eFA==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "2.29.3"
