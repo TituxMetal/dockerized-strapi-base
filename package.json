@@ -14,7 +14,7 @@
     "strapi": "strapi"
   },
   "devDependencies": {
-    "prettier": "2.8.8"
+    "prettier": "3.2.5"
   },
   "dependencies": {
     "@strapi/plugin-i18n": "4.10.6",
