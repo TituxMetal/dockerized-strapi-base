@@ -22,7 +22,7 @@
     "@strapi/provider-email-nodemailer": "4.10.6",
     "@strapi/provider-upload-cloudinary": "4.10.6",
     "@strapi/strapi": "4.10.6",
-    "better-sqlite3": "9.4.0",
+    "better-sqlite3": "9.4.1",
     "pg": "8.11.0"
   },
   "strapi": {
